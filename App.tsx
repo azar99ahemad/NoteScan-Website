@@ -18,7 +18,7 @@ import {
   Scale,
   ExternalLink
 } from 'lucide-react';
-// import logo from './assets/logo.png';
+
 
 // --- Types ---
 type Page = 'home' | 'privacy';
@@ -92,7 +92,7 @@ const Navbar: React.FC<{
           className="flex items-center gap-3 px-3 py-2 rounded-2xl hover:bg-slate-100 active:scale-95"
         >
           <img
-            src="./assets/logo.png"
+            src='https://res.cloudinary.com/dxdwmc7ob/image/upload/v1768982864/Gemini_Generated_Image_yyfwsdyyfwsdyyfw_cropped_processed_by_imagy_bx0udg.png'
             className="w-10 h-10 rounded-xl"
             alt="NoteScan"
           />
@@ -448,7 +448,7 @@ export default function App() {
             <div className="col-span-2 space-y-8">
               <div className="flex items-center gap-3">
                 <img
-                  src="./assets/logo.png"
+                  src="https://res.cloudinary.com/dxdwmc7ob/image/upload/v1768982864/Gemini_Generated_Image_yyfwsdyyfwsdyyfw_cropped_processed_by_imagy_bx0udg.png"
                   alt="NoteScan Logo"
                   className="w-10 h-10 border-none rounded-xl"
                 />
